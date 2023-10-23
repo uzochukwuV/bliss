@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Cars Web</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+        body {
+            background-color: white;
+            color: black;
+            padding: 0 40px;
+        }
+        section>div:first-child {
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            align-items: center;
+            border-bottom: 1px solid gainsboro;
+            margin-bottom: 20px;
+        }
+        figure {
+            display: inline-block;
+            min-width: 250px;
+            margin:  5px;
+        }
+        .caption {
+            display: flex;
+            justify-content: space-between;
+            height: 40px;
+            align-items: center;
+        }
+
+        .caption button {
+            height: 32px;
+            background-color: rgb(79, 79, 252);
+            color: white;
+            font-weight: 700;
+            width: 30%;
+            border: none;
+            outline: none;
+        }
+        @media screen and (max-width:500px) {
+            figure img {
+            width: 100% !important;
+            
+
+        }
+        }
+        a {
+            all: unset;
+            
+            width: 120px;
+            background-color: black;
+            text-align: center;
+            padding: 15px;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <p>Top Cars</p>
+            <p>
+                <a href="./auth/signin.html">Login</a>
+            </p>
+        </div>
+        <div>
+            <figure>
+                <img src="img.jpg" width="300px" alt="" srcset="">
+                <figcaption><div class="caption">
+                    <button>Buy</button>
+                    <button>Sell</button>
+                </div></figcaption>
+            </figure>
+            <figure>
+                <img src="img2.jpg" width="300px" alt="" srcset="">
+                <figcaption><div class="caption">
+                    <button>Buy</button>
+                    <button>Sell</button>
+                </div></figcaption>
+            </figure>
+            <figure>
+                <img src="img1.jpg" width="300px" alt="" srcset="">
+                <figcaption><div class="caption">
+                    <button>Buy</button>
+                    <button>Sell</button>
+                </div></figcaption>
+            </figure>
+            <figure>
+                <img src="img3.jpg" width="300px" alt="" srcset="">
+                <figcaption><div class="caption">
+                    <button>Buy</button>
+                    <button>Sell</button>
+                </div>></figcaption>
+            </figure>
+            <figure>
+                <img src="img4.jpg" width="300px" alt="" srcset="">
+                <figcaption><div class="caption">
+                    <button>Buy</button>
+                    <button>Sell</button>
+                </div></figcaption>
+            </figure>
+            <figure>
+                <img src="img5.jpg" width="300px" alt="" srcset="">
+                <figcaption><div class="caption">
+                    <button>Buy</button>
+                    <button>Sell</button>
+                </div></figcaption>
+            </figure>
+            <figure>
+                <img src="img6.jpg" width="300px" alt="" srcset="">
+                <figcaption><div class="caption">
+                    <button>Buy</button>
+                    <button>Sell</button>
+                </div></figcaption>
+            </figure>
+        </div>
+    </section>
+</body>
+</html>
